@@ -3,12 +3,14 @@
 /* Copyright Bluebotlaboratories */
 /*                               */
 /*===============================*/
+
 @font-face {
   font-family: Quicksand;
   src: url(fonts/quicksand.ttf);
 }
+
 * {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 button {
@@ -55,8 +57,8 @@ body {
 
 .app img {
   object-fit: contain;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 5%;
 }
 
