@@ -7,4 +7,4 @@ A Reskinned Version of KWebBrew
 Download the ZIP of the repository, then just upload the files to the root of your Kindle!
 <br>
 <h1>How do I add apps?</h1>
-New apps can be added by adding package files to the Apps folder!
+New apps can be added by adding extracted package files to the Apps folder!
