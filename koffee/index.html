@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+
+<!-- Copyright Bluebotlaboratories -->
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0",>
+  <script src="./polyfill.min.js"></script>
+  <script src="./sdk.js"></script>
+  <script src="./main.js"></script>
+  <link href="./main.css" rel="stylesheet">
+  <title>Koffee - A KWebBrew Reskin</title>
+</head>
+<body onload="onPageLoad()">
+  <center>
+  <div class="title">
+    <h1>Koffee</h1>
+    <p>A KWebBrew Reskin</p>
+  </div>
+  <div class="appTable">
+  <br>
+  <h1>Installed Apps</h1>
+  <hr>
+  <table id="appTable">
+  </table>
+  <hr>
+  <p>Reskinned by The Koffee Team, Original by BlueBotLaboratories</p>
+  <button onclick="toggleLog()">View Logs</button>
+  <div id="log" style="display: none;"></div>
+  <br>
+</div>
+</center>
+</body>
+</html>

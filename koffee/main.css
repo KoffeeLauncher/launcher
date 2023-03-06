@@ -1,0 +1,61 @@
+/*===============================*/
+/*                               */
+/* Copyright Bluebotlaboratories */
+/*                               */
+/*===============================*/
+@font-face {
+  font-family: Quicksand;
+  src: url(fonts/quicksand.ttf);
+}
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+body {
+  background-color: #555555;
+  color: white;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.appTable {
+  background-color: white;
+  color: #555555;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  table-layout: fixed;
+  border-collapse: separate;
+}
+
+.appRow {
+  width: 100%;
+}
+
+.app {
+  padding: 1.5%;
+  width: 25%;
+  text-align: center;
+}
+
+.app img {
+  object-fit: contain;
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+}
